@@ -1,3 +1,4 @@
-release.config.js
+*.config.js
 tests
 .*
+renovate.json

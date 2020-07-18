@@ -2,7 +2,7 @@ const lint = require('@commitlint/lint').default;
 const config = require('../src');
 
 function validateCommit(commit) {
-    return lint(commit, config.rules, { });
+    return lint(commit, config.rules, {});
 }
 
 describe('Test commit message linter settings', () => {
