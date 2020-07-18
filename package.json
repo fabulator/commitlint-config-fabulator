@@ -1,0 +1,36 @@
+{
+  "name": "commitlint-config-fabulator",
+  "version": "0.1.0",
+  "description": "Shareable config for linting commit messages.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fabulator/commitlint-config-fabulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabulator/commitlint-config-fabulator/issues"
+  },
+  "homepage": "https://github.com/fabulator/commitlint-config-fabulator",
+  "author": "Michal Ozogán <michal@ozogan.eu>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
+  "scripts": {
+    "lint": "eslint ./src ./tests",
+    "test": "jest",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/lint": "^9.1.1",
+    "commitlint": "^9.1.0",
+    "husky": "^4.2.5"
+  },
+  "devDependencies": {
+    "@socifi/eslint-config": "^2.10.2",
+    "semantic-release-config-fabulator": "^1.3.2",
+    "jest": "^26.1.0"
+  }
+}
