@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 (2021-07-18)
+### Fixed
+- [008fee3](https://github.com/fabulator/commitlint-config-fabulator/commit/008fee3b4db20aa4c4e3d3469790feed1f4ac125) Update dependencies
+- [04596be](https://github.com/fabulator/commitlint-config-fabulator/commit/04596beaf8aad0819f485a037e41419ccdc0ff65) Update lock for security updated (#4)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
+### Changed
+- [c6f52cd](https://github.com/fabulator/commitlint-config-fabulator/commit/c6f52cda48a9799c0dedd6dbdfdba9843abb99aa) Update commitlint monorepo to v11 BREAKING (#2)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
 ## v1.1.0 (2020-09-12)
 ### Changed
 - [c1a75ca](https://github.com/fabulator/commitlint-config-fabulator/commit/c1a75ca161c51130cffb2af49aadaef7f40b5485) Update dependencies
