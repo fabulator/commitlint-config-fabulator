@@ -24,14 +24,14 @@
     "test": "jest"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^9.1.2",
-    "@commitlint/lint": "^9.1.2",
-    "commitlint": "^9.1.2",
-    "husky": "^4.3.0"
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/lint": "^12.1.4",
+    "commitlint": "^12.1.4",
+    "husky": "^7.0.1"
   },
   "devDependencies": {
-    "eslint-config-fabulator": "^1.1.0",
-    "jest": "^26.4.2",
-    "semantic-release-config-fabulator": "^2.6.0"
+    "eslint-config-fabulator": "^1.2.0",
+    "jest": "^27.0.6",
+    "semantic-release-config-fabulator": "^2.6.1"
   }
 }
