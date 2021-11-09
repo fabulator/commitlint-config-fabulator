@@ -32,6 +32,6 @@
   "devDependencies": {
     "eslint-config-fabulator": "^1.2.3",
     "jest": "^27.3.1",
-    "semantic-release-config-fabulator": "^3.1.0"
+    "semantic-release-config-fabulator": "^3.0.6"
   }
 }
