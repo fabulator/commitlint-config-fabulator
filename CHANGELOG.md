@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.1.3 (2021-11-29)
+### Fixed
+- [c1455f8](https://github.com/fabulator/commitlint-config-fabulator/commit/c1455f8f6abe4a58c4c0d9e6e6102ca5377b32da) Update lock for security updated
+
 ## v2.1.2 (2021-11-15)
 ### Fixed
 - [29e5f47](https://github.com/fabulator/commitlint-config-fabulator/commit/29e5f47c96887782df56b3c12b05f104f7166bd0) Update lock for security updated
