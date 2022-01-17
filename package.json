@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-fabulator",
-  "version": "2.1.11",
+  "version": "2.1.12",
   "description": "Shareable config for linting commit messages.",
   "keywords": [
     "commitlint",
