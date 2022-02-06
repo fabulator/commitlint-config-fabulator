@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v3.0.0 (2022-02-06)
+### Changed
+- [bd082c4](https://github.com/fabulator/commitlint-config-fabulator/commit/bd082c4574b95e53a97d6c1ffdf94c182186a511) Update commitlint monorepo to v16 BREAKING (#53)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
 ## v2.1.14 (2022-01-31)
 ### Fixed
 - [ecf784d](https://github.com/fabulator/commitlint-config-fabulator/commit/ecf784d2eb374cbe3d1cd5263fb436539f9f5710) Update lock for security updated
