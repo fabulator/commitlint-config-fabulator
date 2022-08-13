@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v5.0.0 (2022-08-13)
+### Changed
+- [f050398](https://github.com/fabulator/commitlint-config-fabulator/commit/f0503981ba567b45033902b0e0bb5c573e0a576f) Update dependency husky to v8 BREAKING (#77)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [38b34e4](https://github.com/fabulator/commitlint-config-fabulator/commit/38b34e4606fe4fd8a663a98b5c7b7c6f06b0e0ef) Update dev dependency jest to v28  (#75)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v4.0.0 (2022-08-13)
 ### Changed
 - [12dbcd9](https://github.com/fabulator/commitlint-config-fabulator/commit/12dbcd9be4ef266fee563de71265a77d3120d190) Update commitlint monorepo to v17 BREAKING (#78)
