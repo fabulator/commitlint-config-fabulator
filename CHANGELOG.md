@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v4.0.0 (2022-08-13)
+### Changed
+- [12dbcd9](https://github.com/fabulator/commitlint-config-fabulator/commit/12dbcd9be4ef266fee563de71265a77d3120d190) Update commitlint monorepo to v17 BREAKING (#78)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [7af5b86](https://github.com/fabulator/commitlint-config-fabulator/commit/7af5b8696e0291d1a64934e39fcad81f78530c59) Update actions/setup-node action to v3 (#67)  
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+- [8c6d9fe](https://github.com/fabulator/commitlint-config-fabulator/commit/8c6d9fe5efaa8e79ff418d58cd8b10af8f4980ba) Update actions/checkout action to v3 (#68)  
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
 ## v3.0.0 (2022-02-06)
 ### Changed
 - [bd082c4](https://github.com/fabulator/commitlint-config-fabulator/commit/bd082c4574b95e53a97d6c1ffdf94c182186a511) Update commitlint monorepo to v16 BREAKING (#53)
