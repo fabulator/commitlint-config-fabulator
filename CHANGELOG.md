@@ -1,6 +1,19 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v6.0.0 (2023-12-16)
+### Changed
+- [273fcdd](https://github.com/fabulator/commitlint-config-fabulator/commit/273fcdd408a2edf6e114b31af081b61e9d7474db) Upgrade all dependencies BREAKING
+- [d1322be](https://github.com/fabulator/commitlint-config-fabulator/commit/d1322be998ab827af1a6b0c7ee74ec5fecf7124c) Update dev dependency jest to v29  (#97)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [4345239](https://github.com/fabulator/commitlint-config-fabulator/commit/4345239a70baa70f62bb0c6759fefee084674750) Update dev dependency semantic-release-config-fabulator to v5  (#95)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [3ead3e4](https://github.com/fabulator/commitlint-config-fabulator/commit/3ead3e47ec2d16ff19fea29a74ccdad8364e76c7) Update dev dependency semantic-release-config-fabulator to v4  (#93)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v5.0.0 (2022-08-13)
 ### Changed
 - [f050398](https://github.com/fabulator/commitlint-config-fabulator/commit/f0503981ba567b45033902b0e0bb5c573e0a576f) Update dependency husky to v8 BREAKING (#77)
