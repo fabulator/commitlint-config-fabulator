@@ -1,4 +1,4 @@
-const types = require('./types');
+const types = require('./types.cjs');
 
 module.exports = {
     rules: {

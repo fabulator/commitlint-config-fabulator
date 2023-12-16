@@ -16,7 +16,7 @@
   },
   "license": "Apache-2.0",
   "author": "Michal Ozogán <michal@ozogan.eu>",
-  "main": "src/index.js",
+  "main": "src/index.cjs",
   "scripts": {
     "lint": "eslint ./ --ext .js --ext .json",
     "lint:fix": "npm run lint -- --fix",

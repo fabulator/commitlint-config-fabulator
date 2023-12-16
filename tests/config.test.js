@@ -1,5 +1,5 @@
 const lint = require('@commitlint/lint').default;
-const config = require('../src');
+const config = require('../src/index.cjs');
 
 function validateCommit(commit) {
     return lint(commit, config.rules, {});
