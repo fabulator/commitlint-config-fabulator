@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v6.1.0 (2023-12-16)
+### Changed
+- [510a824](https://github.com/fabulator/commitlint-config-fabulator/commit/510a8248b57c21aebb43d7bf656797cf23474609) Change to cjs file sufix
+
 ## v6.0.0 (2023-12-16)
 ### Changed
 - [273fcdd](https://github.com/fabulator/commitlint-config-fabulator/commit/273fcdd408a2edf6e114b31af081b61e9d7474db) Upgrade all dependencies BREAKING
