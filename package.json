@@ -24,9 +24,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^18.4.3",
-    "@commitlint/lint": "^18.4.3",
-    "commitlint": "^18.4.3",
+    "@commitlint/config-conventional": "^20.2.0",
+    "@commitlint/lint": "^20.2.0",
+    "commitlint": "^20.2.0",
     "husky": "^8.0.3"
   },
   "devDependencies": {
