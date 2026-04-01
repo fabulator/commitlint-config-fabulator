@@ -30,7 +30,7 @@
     "husky": "^8.0.3"
   },
   "devDependencies": {
-    "eslint-config-fabulator": "^3.1.0",
+    "eslint-config-fabulator": "^5.3.2",
     "jest": "^29.7.0",
     "semantic-release-config-fabulator": "^7.0.0"
   }
