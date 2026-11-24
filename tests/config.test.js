@@ -1,19 +1,29 @@
-const lint = require('@commitlint/lint').default;
-const config = require('../src/index.cjs');
+import assert from 'node:assert/strict';
+import { describe, it } from 'node:test';
+import lint from '@commitlint/lint';
+import config from '../src/index.js';
 
-function validateCommit(commit) {
-    return lint(commit, config.rules, {});
-}
+const errorCount = async (commit) =>
+  (await lint(commit, config.rules, {})).errors.length;
 
 describe('Test commit message linter settings', () => {
-    it('Requires type', async () => {
-        expect((await validateCommit(': Abcd.')).errors.length).toBeGreaterThan(0);
-        expect((await validateCommit('changed: Abcd.')).errors.length).toBeGreaterThan(0);
-        expect((await validateCommit('unknown: Abcd.')).errors.length).toBeGreaterThan(0);
-    });
+  it('Accepts valid message', async () => {
+    assert.equal(await errorCount('Changed: Abcd.'), 0);
+    assert.equal(await errorCount('InProgress: Abcd.'), 0);
+  });
 
-    it('Requires message', async () => {
-        expect((await validateCommit('Changed:')).errors.length).toBeGreaterThan(0);
-        expect((await validateCommit('xx')).errors.length).toBeGreaterThan(0);
-    });
+  it('Requires type', async () => {
+    assert.ok((await errorCount(': Abcd.')) > 0);
+    assert.ok((await errorCount('changed: Abcd.')) > 0);
+    assert.ok((await errorCount('unknown: Abcd.')) > 0);
+  });
+
+  it('Requires message', async () => {
+    assert.ok((await errorCount('Changed:')) > 0);
+    assert.ok((await errorCount('xx')) > 0);
+  });
+
+  it('Forbids scope', async () => {
+    assert.ok((await errorCount('Changed(api): Abcd.')) > 0);
+  });
 });
