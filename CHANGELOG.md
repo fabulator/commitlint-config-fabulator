@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v6.3.0 (2026-11-24)
+### Changed
+- [74ede72](https://github.com/fabulator/commitlint-config-fabulator/commit/74ede7294c7129851feec901b100d46dcef06951) Update Node.js to v26 (#240)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v6.2.0 (2026-11-24)
 ### Changed
 - [53cdaca](https://github.com/fabulator/commitlint-config-fabulator/commit/53cdacae13aa5fb2d93e25d3c25fe68a7b34196c) Switch to ES modules, update dependencies and use shared workflows (#241)
