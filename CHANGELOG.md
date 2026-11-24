@@ -1,6 +1,45 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v6.2.0 (2026-11-24)
+### Changed
+- [53cdaca](https://github.com/fabulator/commitlint-config-fabulator/commit/53cdacae13aa5fb2d93e25d3c25fe68a7b34196c) Switch to ES modules, update dependencies and use shared workflows (#241)
+
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+- [2eb70e3](https://github.com/fabulator/commitlint-config-fabulator/commit/2eb70e3acb574899e4d03b717a27ca82fcf8c82e) Update Github Flow  dependency node to v20.20.2 (#236)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [4a1c4ac](https://github.com/fabulator/commitlint-config-fabulator/commit/4a1c4ac613d618da91a8554b2398254437355ad6) Update Github Flow  dependency node to v20.20.1 (#235)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [c8dcedb](https://github.com/fabulator/commitlint-config-fabulator/commit/c8dcedb464cab9be8ed1b2741c49de1d6c9dcfa8) Update Github Flow  dependency node to v20.20.0 (#233)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [813811d](https://github.com/fabulator/commitlint-config-fabulator/commit/813811dd7196d297901601db402d802c82266d34) Update Github Flow  dependency node to v20.19.6 (#227)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [9ee6cb0](https://github.com/fabulator/commitlint-config-fabulator/commit/9ee6cb016536a8615ce90391f103bc5ef1318989) Update Github Flow  dependency node to v20.19.5 (#217)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [0deb826](https://github.com/fabulator/commitlint-config-fabulator/commit/0deb8261cb80a2b5f4dd3f5d0cdfb730b8efb597) Update Github Flow  dependency node to v20.19.4 (#213)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [500cd4b](https://github.com/fabulator/commitlint-config-fabulator/commit/500cd4b58a56f88d3d19bbfd29c375d558278455) Update Github Flow  dependency node to v20.19.3 (#210)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [c79e5c9](https://github.com/fabulator/commitlint-config-fabulator/commit/c79e5c90d105c76d28366c24555fdd0824fe0e9d) Update Github Flow  dependency node to v20.19.2 (#207)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [1f2567e](https://github.com/fabulator/commitlint-config-fabulator/commit/1f2567ef5c3bd219e52f0728a6c13fd49d7b2485) Update Github Flow  dependency node to v20.19.1 (#204)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [39a46df](https://github.com/fabulator/commitlint-config-fabulator/commit/39a46dff32e36d36bc7eba6150e65c249343cc54) Update Github Flow  dependency node to v20.19.0 (#199)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [995bc8f](https://github.com/fabulator/commitlint-config-fabulator/commit/995bc8f100544c755d3efb5127fd1c0de2a53d7f) Update Github Flow  dependency node to v20.18.3 (#197)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v6.1.0 (2023-12-16)
 ### Changed
 - [510a824](https://github.com/fabulator/commitlint-config-fabulator/commit/510a8248b57c21aebb43d7bf656797cf23474609) Change to cjs file sufix
